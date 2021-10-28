@@ -5,8 +5,74 @@
       <meta charset="utf-8">
         <title> formularz </title>
   </head>
- <body>
- Konopka Tutaj będzie formularz <br>
+ <body bgcolor="gray">
+ <form ACTION="mailto:mkryniew@ids.gda.pl">
+ <fieldset>
+			<h1>Formularz<h1>
+			<br>
+			<hr style="color: silver;">
+		<h2>Imie</h2>
+			<p>
+			<input type="text" value="..."> <br>
+			</p>
+			<h2>Nazwisko</h2>
+			<p>
+			<input type="text" value="..."> <br>
+			</p>
+			<hr style="color: silver;">
+			<h2>Płec</h2>
+			<p>
+			<input type="radio" name="k" value="b"> Męzczyzna  <br>
+			<input type="radio" name="k" value="c"> Kobieta <br>
+			<input type="radio" name="k" value="d" checked> Wolę nie podawać <br>
+			</p>
+			<hr style="color: silver;">
+			<h2>Jaki z tych rodzajów muzyki lubisz? (przyciskiem ctrl mozesz zaznaczyc pare opcji) </h2>
+			<p>
+			<select name="e" multiple>
+			<option value="f">pop <br>
+			<option value="g">Rock<br>
+			<option value="h">kpop<br>
+			<option value="i">Szanty<br>
+			<option value="j">Metal<br>
+			</select>
+			</p>
+			<hr style="color: silver;">
+			<h2>Ile masz lat?<h2>
+			<p>
+			<select name="k">
+			<option value="l">14 lub mniej <br>
+			<option value="m">15<br>
+			<option value="m">16<br>
+			<option value="m">17<br>
+			<option value="m">18 lub wiecej<br>
+			</select>
+			</p>
+			<hr style="color: silver;">
+			<h2>Twoj ulubiony przedmiot szkolny? (Możesz zaznaczyc wiele opcji)<h2>
+			<p>
+			<input type="checkbox" name="h" value="n">Matematyka<br>
+			<input type="checkbox" name="h" value="o">Fizyka<br>
+			<input type="checkbox" name="h" value="o">Chemia<br>
+			<input type="checkbox" name="h" value="o">Plastyka<br>
+			<input type="checkbox" name="h" value="o">j.Polski<br>
+			<input type="checkbox" name="h" value="o">j.Angielski<br>
+			
+			</p>
+			<hr style="color: silver;">
+			<h2>Napisz co myslisz o swojej szkole<h2>
+			<p>
+			<textarea name="p" rows=8 cols=16></TEXTAREA>
+			</p>
+			<hr style="color: silver;">
+			<p>
+			<input type="submit" value="WYŚLIJ">
+			</p>
+			<p>
+			<input type="reset" value="CZYŚĆ">
+			</p>
+			</fieldset>
+			</form>
 <A HREF="index.html"> wróć</A>
 </body>
 </html>
